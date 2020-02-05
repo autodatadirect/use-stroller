@@ -1,0 +1,40 @@
+{
+  "name": "stroller",
+  "version": "0.0.1",
+  "description": "A React library using hooks to help scroll around the page",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/autodatadirect/stroller",
+  "scripts": {
+    "build": "babel ./src -d ./dist",
+    "dev": "babel -w ./src -d ./dist",
+    "prepublish": "npm run build",
+    "lint": "standard \"./src/**/*.js\""
+  },
+  "keywords": [
+    "react",
+    "ops",
+    "async"
+  ],
+  "author": "Auto Data Direct, Inc.",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/runtime": "^7.8.3",
+    "standard": "^14.3.1"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
