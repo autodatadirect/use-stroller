@@ -26,6 +26,7 @@ export default ({ children, startDisabled = false, name }) => {
       targets[id] = ref
       render()
     }
+    return () => delete targets[id]
   }, [])
 
   const enabled = !!targets[id]
