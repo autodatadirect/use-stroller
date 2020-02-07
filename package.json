@@ -1,5 +1,5 @@
 {
-  "name": "stroller",
+  "name": "use-stroller",
   "version": "0.0.1",
   "description": "A React library using hooks to help scroll around the page",
   "main": "./dist/index.js",
